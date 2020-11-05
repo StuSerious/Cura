@@ -1,0 +1,23 @@
+{
+    "name": "3ntr Base Definition",
+    "version": 2,
+    "inherits": "fdmprinter",
+    "metadata": {
+        "author": "Ste Serioli - github.com/StuSerious",
+        "manufacturer": "3ntr",
+        "file_formats": "text/x-gcode",
+        "visible": false,
+        "has_materials": false,
+        "has_variants": false,
+        "has_machine_quality": true,
+        "preferred_material": "generic_pla",
+        "preferred_quality_type": "normal",
+        "machine_extruder_trains": {
+            "0": "3ntr_extruder_0",
+            "1": "3ntr_extruder_1",
+            "2": "3ntr_extruder_2"
+        }
+    },
+    "overrides": {
+    }
+}
