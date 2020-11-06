@@ -1,5 +1,5 @@
 {
-    "name": "3ntr A4v2",
+    "name": "3ntr A4v3",
     "version": 2,
     "inherits": "3ntr",
     "metadata": {
@@ -8,6 +8,7 @@
         "file_formats": "text/x-gcode",
         "visible": true,
         "platform": "3ntr_platform.stl",
+        "platform_offset": [0, 0, 0 ],
         "has_variants": false,
         "has_machine_quality": false,
         "preferred_quality_type": "draft",
